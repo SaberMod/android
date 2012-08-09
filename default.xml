@@ -8,6 +8,9 @@
            fetch=".."
            review="review.cyanogenmod.com" />
 
+  <remote  name="ta"
+           fetch="https://github.com/" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -29,6 +32,7 @@
   <project path="cts" name="CyanogenMod/android_cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
+  <project path="device/asus/grouper" name="pbeeler/android_device_asus_grouper" remote="ta" revision="jellybean" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" />
   <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" />
@@ -225,6 +229,7 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
+  <project path="kernel/asus/Kernel-Grouper" name="pbeeler/Kernel-Grouper" remote="ta" revision="TeamAndroid" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
@@ -321,7 +326,7 @@
   <project path="system/security" name="CyanogenMod/android_system_security" />
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+  <project path="vendor/cm" name="pbeeler/android_vendor_cm" remote="ta" revision="TA" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
