@@ -16,7 +16,7 @@
 
   <default revision="refs/heads/jellybean"
            remote="github"
-           sync-j="4" />
+           sync-j="1" />
 
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
