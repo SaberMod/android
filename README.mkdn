@@ -1,4 +1,4 @@
-CyanogenMod
+CyanogenMod + pbeeler
 ===========
 
 Submitting Patches
@@ -22,16 +22,18 @@ Commit your patches in a single commit. Squash multiple commit using this comman
 
 To view the status of your and others' patches, visit [CyanogenMod Code Review](http://review.cyanogenmod.com/)
 
+To make changes to pbeeler repos only make a fork of it on github and send pull request ;)
+
 
 Getting Started
 ---------------
 
-To get started with Android/CyanogenMod, you'll need to get
+To get started with Android/CyanogenMod + pbeeler, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialize your local repository using the CyanogenMod + pbeeler trees, use a command like this:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b jellybean
+    repo init -u git://github.com/pbeeler/android.git -b jellybean
 
 Then to sync up:
 
