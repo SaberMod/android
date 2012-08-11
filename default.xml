@@ -18,7 +18,7 @@
            remote="github"
            sync-j="1" />
 
-  <project path="build" name="CyanogenMod/android_build">
+  <project path="build" name="pbeeler/android_build" remote="ta" revision="jellybean">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
