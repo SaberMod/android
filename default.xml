@@ -5,14 +5,14 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch="https://github.com/"
+           fetch="git://github.com/"
            review="review.cyanogenmod.com" />
 
   <remote  name="ta"
-           fetch="https://github.com/" />
+           fetch="git://github.com/" />
 
   <remote  name="git"
-           fetch="https://gitorious.org/" />
+           fetch="git://gitorious.org/" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
