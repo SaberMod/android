@@ -23,6 +23,7 @@
 
   <project path="build" name="pbeeler/android_build" remote="ta" revision="jellybean">
     <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="tools/build-scripts/Grouper" dest="Grouper" />
   </project>
 
   <project path="android" name="pbeeler/android" remote="ta" revision="jellybean" />
