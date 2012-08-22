@@ -21,7 +21,7 @@
            remote="github"
            sync-j="1" />
 
-  <project path="build" name="pbeeler/android_build" remote="ta" revision="jellybean">
+  <project path="build" name="pbeeler/android_build" remote="ta" revision="jellybean-stable">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/build-scripts/Grouper" dest="Grouper" />
   </project>
