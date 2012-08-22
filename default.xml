@@ -12,7 +12,7 @@
            fetch=".." />
 
   <remote  name="git"
-           fetch="git://gitorious.org/" />
+           fetch="https://bitbucket.org/" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -328,16 +328,16 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="vendor/goomanager" name="pbeeler/android_vendor_goomanager" remote="ta" revision="jellybean" />
   <project path="vendor/cm" name="pbeeler/android_vendor_cm" remote="ta" revision="TA" />
-  <project path="vendor/asus/grouper" name="teamandroid/proprietary_asus_grouper" remote="git" revision="master" />
-  <project path="vendor/broadcom/grouper" name="teamandroid/proprietary_broadcom_grouper" remote="git" revision="master" />
-  <project path="vendor/elan/grouper" name="teamandroid/proprietary_elan_grouper" remote="git" revision="master" />
-  <project path="vendor/google" name="teamandroid/proprietary_google" remote="git" revision="master" />
-  <project path="vendor/invensense/grouper" name="teamandroid/proprietary_invensense_grouper" remote="git" revision="master" />
-  <project path="vendor/nvidia/grouper" name="teamandroid/proprietary_nvidia_grouper" remote="git" revision="master" />
-  <project path="vendor/nxp/grouper" name="teamandroid/proprietary_nxp_grouper" remote="git" revision="master" />
-  <project path="vendor/trusted_logic/grouper" name="teamandroid/proprietary_trusted_logic_grouper" remote="git" revision="master" />
-  <project path="vendor/unknown/grouper" name="teamandroid/proprietary_unknown_grouper" remote="git" revision="master" />
-  <project path="vendor/widevine/grouper" name="teamandroid/proprietary_widevine_grouper" remote="git" revision="master" />
+  <project path="vendor/asus/grouper" name="pbeeler/proprietary_asus_grouper" remote="git" revision="master" />
+  <project path="vendor/broadcom/grouper" name="pbeeler/proprietary_broadcom_grouper" remote="git" revision="master" />
+  <project path="vendor/elan/grouper" name="pbeeler/proprietary_elan_grouper" remote="git" revision="master" />
+  <project path="vendor/google" name="pbeeler/proprietary_google" remote="git" revision="master" />
+  <project path="vendor/invensense/grouper" name="pbeeler/proprietary_invensense_grouper" remote="git" revision="master" />
+  <project path="vendor/nvidia/grouper" name="pbeeler/proprietary_nvidia_grouper" remote="git" revision="master" />
+  <project path="vendor/nxp/grouper" name="pbeeler/proprietary_nxp_grouper" remote="git" revision="master" />
+  <project path="vendor/trusted_logic/grouper" name="pbeeler/proprietary_trusted_logic_grouper" remote="git" revision="master" />
+  <project path="vendor/unknown/grouper" name="pbeeler/proprietary_unknown_grouper" remote="git" revision="master" />
+  <project path="vendor/widevine/grouper" name="pbeeler/proprietary_widevine_grouper" remote="git" revision="master" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
