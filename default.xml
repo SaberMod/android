@@ -333,6 +333,7 @@
   <project path="vendor/asus/grouper" name="teamandroid/proprietary_asus_grouper" remote="git" revision="master" />
   <project path="vendor/broadcom/grouper" name="teamandroid/proprietary_broadcom_grouper" remote="git" revision="master" />
   <project path="vendor/elan/grouper" name="teamandroid/proprietary_elan_grouper" remote="git" revision="master" />
+  <project path="vendor/google" name="teamandroid/proprietary_google" remote="git" revision="master" />
   <project path="vendor/invensense/grouper" name="teamandroid/proprietary_invensense_grouper" remote="git" revision="master" />
   <project path="vendor/nvidia/grouper" name="teamandroid/proprietary_nvidia_grouper" remote="git" revision="master" />
   <project path="vendor/nxp/grouper" name="teamandroid/proprietary_nxp_grouper" remote="git" revision="master" />
