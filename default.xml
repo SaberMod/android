@@ -325,7 +325,7 @@
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/security" name="CyanogenMod/android_system_security" />
-  <project path="system/su" name="CyanogenMod/android_system_su" />
+  <project path="system/su" name="pbeeler/android_system_su" remote="ta" revision="master" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="vendor/goomanager" name="pbeeler/android_vendor_goomanager" remote="ta" revision="jellybean" />
   <project path="vendor/cm" name="pbeeler/android_vendor_cm" remote="ta" revision="TA" />
