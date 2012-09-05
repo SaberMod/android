@@ -328,7 +328,7 @@
   <project path="system/security" name="CyanogenMod/android_system_security" />
   <project path="system/su" name="pbeeler/android_system_su" remote="ta" revision="master" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
-  <project path="vendor/goomanager" name="pbeeler/android_vendor_goomanager" remote="ta" revision="jellybean" />
+  <project path="vendor/goomanager" name="pbeeler/android_vendor_goomanager" remote="ta" revision="master" />
   <project path="vendor/cm" name="pbeeler/android_vendor_cm" remote="ta" revision="TA" />
   <project path="vendor/asus/grouper" name="pbeeler/proprietary_asus_grouper" remote="git" revision="master" />
   <project path="vendor/broadcom/grouper" name="pbeeler/proprietary_broadcom_grouper" remote="git" revision="master" />
@@ -337,6 +337,7 @@
   <project path="vendor/invensense/grouper" name="pbeeler/proprietary_invensense_grouper" remote="git" revision="master" />
   <project path="vendor/nvidia/grouper" name="pbeeler/proprietary_nvidia_grouper" remote="git" revision="master" />
   <project path="vendor/nxp/grouper" name="pbeeler/proprietary_nxp_grouper" remote="git" revision="master" />
+  <project path="vendor/ThyrusHoloBlack" name="pbeeler/android_vendor_ThyrusHoloBlack" remote="ta" revision="master" />
   <project path="vendor/trusted_logic/grouper" name="pbeeler/proprietary_trusted_logic_grouper" remote="git" revision="master" />
   <project path="vendor/unknown/grouper" name="pbeeler/proprietary_unknown_grouper" remote="git" revision="master" />
   <project path="vendor/widevine/grouper" name="pbeeler/proprietary_widevine_grouper" remote="git" revision="master" />
