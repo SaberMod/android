@@ -333,7 +333,6 @@
   <project path="vendor/asus/grouper" name="pbeeler/proprietary_asus_grouper" remote="git" revision="master" />
   <project path="vendor/broadcom/grouper" name="pbeeler/proprietary_broadcom_grouper" remote="git" revision="master" />
   <project path="vendor/elan/grouper" name="pbeeler/proprietary_elan_grouper" remote="git" revision="master" />
-  <project path="vendor/google" name="pbeeler/proprietary_google" remote="git" revision="master" />
   <project path="vendor/invensense/grouper" name="pbeeler/proprietary_invensense_grouper" remote="git" revision="master" />
   <project path="vendor/nvidia/grouper" name="pbeeler/proprietary_nvidia_grouper" remote="git" revision="master" />
   <project path="vendor/nxp/grouper" name="pbeeler/proprietary_nxp_grouper" remote="git" revision="master" />
