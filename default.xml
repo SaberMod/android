@@ -328,21 +328,21 @@
   <project path="system/security" name="CyanogenMod/android_system_security" />
   <project path="system/su" name="pbeeler/android_system_su" remote="ta" revision="master" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
-  <project path="vendor/goomanager" name="pbeeler/android_vendor_goomanager" remote="ta" revision="master" />
   <project path="vendor/cm" name="pbeeler/android_vendor_cm" remote="ta" revision="TA" />
+  <project path="vendor/goomanager" name="pbeeler/android_vendor_goomanager" remote="ta" revision="master" />
   <project path="vendor/jackpal" name="pbeeler/android_vendor_jackpal" remote="ta" revision="master" />
+  <project path="vendor/ThyrusHoloBlack" name="pbeeler/android_vendor_ThyrusHoloBlack" remote="ta" revision="master" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
+  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/asus/grouper" name="pbeeler/proprietary_asus_grouper" remote="git" revision="master" />
   <project path="vendor/broadcom/grouper" name="pbeeler/proprietary_broadcom_grouper" remote="git" revision="master" />
   <project path="vendor/elan/grouper" name="pbeeler/proprietary_elan_grouper" remote="git" revision="master" />
   <project path="vendor/invensense/grouper" name="pbeeler/proprietary_invensense_grouper" remote="git" revision="master" />
   <project path="vendor/nvidia/grouper" name="pbeeler/proprietary_nvidia_grouper" remote="git" revision="master" />
   <project path="vendor/nxp/grouper" name="pbeeler/proprietary_nxp_grouper" remote="git" revision="master" />
-  <project path="vendor/ThyrusHoloBlack" name="pbeeler/android_vendor_ThyrusHoloBlack" remote="ta" revision="master" />
   <project path="vendor/trusted_logic/grouper" name="pbeeler/proprietary_trusted_logic_grouper" remote="git" revision="master" />
   <project path="vendor/unknown/grouper" name="pbeeler/proprietary_unknown_grouper" remote="git" revision="master" />
   <project path="vendor/widevine/grouper" name="pbeeler/proprietary_widevine_grouper" remote="git" revision="master" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
-  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 </manifest>
