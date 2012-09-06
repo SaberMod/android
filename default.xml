@@ -330,6 +330,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="vendor/goomanager" name="pbeeler/android_vendor_goomanager" remote="ta" revision="master" />
   <project path="vendor/cm" name="pbeeler/android_vendor_cm" remote="ta" revision="TA" />
+  <project path="vendor/jackpal" name="pbeeler/android_vendor_jackpal" remote="ta" revision="master" />
   <project path="vendor/asus/grouper" name="pbeeler/proprietary_asus_grouper" remote="git" revision="master" />
   <project path="vendor/broadcom/grouper" name="pbeeler/proprietary_broadcom_grouper" remote="git" revision="master" />
   <project path="vendor/elan/grouper" name="pbeeler/proprietary_elan_grouper" remote="git" revision="master" />
