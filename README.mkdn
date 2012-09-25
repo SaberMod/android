@@ -33,13 +33,19 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the CyanogenMod + pbeeler trees, use a command like this:
 
-    repo init -u git://github.com/pbeeler/android.git -b jellybean
+    repo init -u https://github.com/pbeeler/android.git -b jellybean
 
 Then to sync up:
 
     repo sync
 
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.com/) for building instructions.
+For building instructions:
+
+    To use the automated build scripts
+
+        bash < device > e.g. bash Grouper
+
+    If there is not a script for your device contact me and I will add one :)
 
 For more information on this Github Organization and how it is structured, 
 please [read the wiki article](http://wiki.cyanogenmod.com/index.php/Github_Organization)
