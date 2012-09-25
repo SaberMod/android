@@ -324,7 +324,7 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="prebuilts/tools" name="CyanogenMod/android_prebuilts_tools" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-linaro-4.7" name="pbeeler/android_prebuilts_gcc_linux-x86_arm_arm-linux-linaro-4.7" remote="ta" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-linaro-4.7" name="pbeeler/android_prebuilts_gcc_linux-x86_arm_arm-linux-linaro-4.7" remote="ta" revision="master" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
