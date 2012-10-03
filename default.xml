@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="pbeeler"
+           fetch=".." />
+
   <remote  name="korg"
            fetch="git://android.git.linaro.org/"
            review="review.android.git.linaro.org" />
@@ -16,7 +19,7 @@
 
   <project path="benchmark" name="toolchain/benchmark" revision="master" />
   <project path="binutils" name="toolchain/binutils" />
-  <project path="build" name="toolchain/build" />
+  <project path="build" name="pbeeler/Linaro_build" remote="pbeeler" revision="master" />
   <project path="gcc-patches" name="toolchain/gcc-patches" revision="master" />
   <project path="gdb" name="toolchain/gdb" />
   <project path="gmp" name="toolchain/gmp" />
