@@ -15,7 +15,8 @@
            fetch="git://git.linaro.org/" />
 
   <default revision="linaro-master"
-           remote="linaro-android" />
+           remote="linaro-android"
+           sync-c="true" />
 
   <project path="benchmark" name="toolchain/benchmark" revision="master" />
   <project path="binutils" name="toolchain/binutils" />
