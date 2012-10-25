@@ -5,6 +5,7 @@
            fetch=".." />
   <default revision="master"
            remote="aosp"
+           sync-c="true"
            sync-j="4" />
   
   <project name="device/common" revision="523e077fb8fe899680c33539155d935e0624e40a"/>

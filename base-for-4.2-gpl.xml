@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/"/>
   
-  <default remote="aosp" revision="master" sync-j="4"/>
+  <default remote="aosp" revision="master" sync-c="true" sync-j="4"/>
   
   <project groups="device" name="device/asus/grouper" revision="7fce7d56cb077e869b9509cd2770d92e8cf29dcc" upstream="master"/>
   <project name="device/common" revision="c5adba2e2ae6024010d7e4b4bc622df630b484da" upstream="master"/>
