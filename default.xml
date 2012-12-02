@@ -6,7 +6,9 @@
   <remote  name="pb"
            fetch="https://github.com/pbeeler/" />
   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod" />
+           fetch="https://github.com/CyanogenMod/" />
+  <remote  name="ras"
+           fetch="https://github.com/rascarlo/" />
   <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
            sync-c="true"
