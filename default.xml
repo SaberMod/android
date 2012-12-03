@@ -207,7 +207,7 @@
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="pb" revision="jellybean-google" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pb" revision="jellybean-google" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
+  <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="pb" revision="jellybean-google" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="pb" revision="jellybean-google" />
@@ -226,7 +226,7 @@
   <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="pb" revision="jellybean-google" />
-  <project path="frameworks/support" name="platform/frameworks/support" />
+  <project path="frameworks/support" name="android_frameworks_support" remote="pb" revision="jellybean-google" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="pb" revision="jellybean-google" />
   <project path="gdk" name="platform/gdk" />
