@@ -146,6 +146,7 @@
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="android_external_llvm" remote="pb" revision="jellybean-google" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
+  <project path="external/lzo" name="android_external_lzo" remote="cm" revision="mr1-staging" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
   <project path="external/mesa3d" name="android_external_mesa3d" remote="pb" revision="jellybean-google" />
@@ -164,6 +165,7 @@
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="android_external_openssh" remote="pb" revision="jellybean-google" />
   <project path="external/openssl" name="android_external_openssl" remote="pb" revision="jellybean-google" />
+  <project path="external/openvpn" name="android_external_openvpn" remote="pb" revision="jellybean-google" />
   <project path="external/oprofile" name="android_external_oprofile" remote="pb" revision="jellybean-google" />
   <project path="external/ping" name="android_external_ping" remote="pb" revision="jellybean-google" />
   <project path="external/ping6" name="android_external_ping6" remote="pb" revision="jellybean-google" />
@@ -175,6 +177,7 @@
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
+  <project path="external/rsync" name="android_external_rsync" remote="cm" revision="mr1-staging" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
   <project path="external/skia" name="android_external_skia" remote="pb" revision="jellybean-google" />
