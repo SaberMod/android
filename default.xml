@@ -16,7 +16,8 @@
 
   <project path="build" name="android_build" remote="pb" revision="jellybean-google" >
     <copyfile src="core/root.mk" dest="Makefile" />
-    <copyfile src="tools/build-scripts/Grouper" dest="Grouper" />
+    <copyfile src="tools/build-scripts/grouper-base" dest="grouper-base" />
+    <copyfile src="tools/build-scripts/grouper-ota" dest="grouper-ota" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="android_bionic" remote="pb" revision="jellybean" />
@@ -193,9 +194,9 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="platform/external/v8" />
+  <project path="external/v8" name="android_external_v8" remote="pb" revision="jellybean-google" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="platform/external/webkit" />
+  <project path="external/webkit" name="android_external_webkit" remote="pb" revision="jellybean-google" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
