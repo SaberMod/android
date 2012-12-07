@@ -18,6 +18,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/build-scripts/grouper-base" dest="grouper-base" />
     <copyfile src="tools/build-scripts/grouper-ota" dest="grouper-ota" />
+    <copyfile src="tools/build-scripts/tilapia-base" dest="tilapia-base" />
+    <copyfile src="tools/build-scripts/tilapia-ota" dest="tilapia-ota" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="android_bionic" remote="pb" revision="jellybean" />
