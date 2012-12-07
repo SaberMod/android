@@ -16,6 +16,8 @@
 
   <project path="build" name="android_build" remote="pb" revision="jellybean-google" >
     <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="tools/build-scripts/all-base" dest="all-base" />
+    <copyfile src="tools/build-scripts/all-ota" dest="all-ota" />
     <copyfile src="tools/build-scripts/grouper-base" dest="grouper-base" />
     <copyfile src="tools/build-scripts/grouper-ota" dest="grouper-ota" />
     <copyfile src="tools/build-scripts/tilapia-base" dest="tilapia-base" />
