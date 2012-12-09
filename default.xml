@@ -19,6 +19,7 @@
     <copyfile src="tools/build-scripts/all-base" dest="all-base" />
     <copyfile src="tools/build-scripts/all-ota" dest="all-ota" />
     <copyfile src="tools/build-scripts/grouper-base" dest="grouper-base" />
+    <copyfile src="tools/build-scripts/grouper-kernel" dest="grouper-kernel" />
     <copyfile src="tools/build-scripts/grouper-ota" dest="grouper-ota" />
     <copyfile src="tools/build-scripts/tilapia-base" dest="tilapia-base" />
     <copyfile src="tools/build-scripts/tilapia-ota" dest="tilapia-ota" />
@@ -260,6 +261,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+  <project path="kernel/asus/grouper" name="Kernel-Grouper" remote="pb" revision="jellybean-release" />
   <project path="libcore" name="android_libcore" remote="pb" revision="jellybean-google" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
