@@ -22,7 +22,7 @@
     <copyfile src="tools/build-scripts/tilapia-base" dest="tilapia-base" />
     <copyfile src="tools/build-scripts/tilapia-ota" dest="tilapia-ota" />
     <copyfile src="tools/build-scripts/twrp-grouper" dest="twrp-grouper" />
-    <copyfile src="tools/build-scripts/twrp-kernel" dest="twrp-kernel" />
+    <copyfile src="tools/build-scripts/twrp-grouper-kernel" dest="twrp-grouper-kernel" />
     <copyfile src="tools/build-scripts/twrp-tilapia" dest="twrp-tilapia" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
