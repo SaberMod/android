@@ -152,7 +152,7 @@
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="android_external_llvm" remote="pb" revision="jellybean-google" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
-  <project path="external/lzo" name="android_external_lzo" remote="cm" revision="mr1-staging" />
+  <project path="external/lzo" name="android_external_lzo" remote="cm" revision="cm-10.1" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
   <project path="external/mesa3d" name="android_external_mesa3d" remote="pb" revision="jellybean-google" />
@@ -183,7 +183,7 @@
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
-  <project path="external/rsync" name="android_external_rsync" remote="cm" revision="mr1-staging" />
+  <project path="external/rsync" name="android_external_rsync" remote="cm" revision="cm-10.1" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
   <project path="external/skia" name="android_external_skia" remote="pb" revision="jellybean-google" />
@@ -266,7 +266,7 @@
   <project path="libcore" name="android_libcore" remote="pb" revision="jellybean-google" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="mr1-staging" />
+  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
@@ -277,7 +277,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="jellybean" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="mr1-staging" />
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="pb" revision="jellybean-google" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
