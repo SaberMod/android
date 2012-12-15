@@ -155,7 +155,7 @@
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="android_external_llvm" remote="pb" revision="jellybean-google" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
-  <project path="external/lsof" name="android_external_lsof" remote="cm" revision="cm-10.1" />
+  <project path="external/lsof" name="android_external_lsof" remote="pb" revision="jellybean-google" />
   <project path="external/lzo" name="android_external_lzo" remote="cm" revision="cm-10.1" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
@@ -180,7 +180,7 @@
   <project path="external/oprofile" name="android_external_oprofile" remote="pb" revision="jellybean-google" />
   <project path="external/ping" name="android_external_ping" remote="pb" revision="jellybean-google" />
   <project path="external/ping6" name="android_external_ping6" remote="pb" revision="jellybean-google" />
-  <project path="external/powertop" name="android_external_powertop" remote="cm" revision="cm-10.1" />
+  <project path="external/powertop" name="android_external_powertop" remote="pb" revision="jellybean-google" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
