@@ -378,4 +378,8 @@
   <project path="vendor/goomanager" name="android_vendor_goomanager" remote="pb" revision="jellybean" />
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="pb" revision="master" />
   <project path="vendor/Wallpaperz" name="android_vendor_Wallpaperz" remote="pb" revision="jellybean-hdpi" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1"  />
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1"  />
+  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1"  />
 </manifest>
