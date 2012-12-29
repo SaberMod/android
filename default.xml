@@ -22,6 +22,9 @@
     <copyfile src="tools/build-scripts/twrp-grouper-kernel" dest="twrp-grouper-kernel" />
     <copyfile src="tools/build-scripts/twrp-tilapia" dest="twrp-tilapia" />
   </project>
+
+  <project path="android" name="android" remote="pb" revision="jellybean-google" />
+
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="android_bionic" remote="pb" revision="jellybean" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
