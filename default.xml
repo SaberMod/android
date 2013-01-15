@@ -4,7 +4,7 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <remote  name="sm"
-           fetch="https://github.com/pbeeler/" />
+           fetch="https://github.com/SaberMod/" />
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod" />
   <default revision="refs/tags/android-4.2.1_r1"
