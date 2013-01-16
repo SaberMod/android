@@ -14,13 +14,10 @@
 
   <project path="build" name="android_build" remote="sm" revision="sm-jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
-    <copyfile src="tools/build-scripts/all" dest="all" />
+    <copyfile src="tools/build-scripts/sm-all" dest="sm-all" />
     <copyfile src="tools/build-scripts/grouper-kernel" dest="grouper-kernel" />
-    <copyfile src="tools/build-scripts/grouper" dest="grouper" />
-    <copyfile src="tools/build-scripts/tilapia" dest="tilapia" />
-    <copyfile src="tools/build-scripts/twrp-grouper" dest="twrp-grouper" />
-    <copyfile src="tools/build-scripts/twrp-grouper-kernel" dest="twrp-grouper-kernel" />
-    <copyfile src="tools/build-scripts/twrp-tilapia" dest="twrp-tilapia" />
+    <copyfile src="tools/build-scripts/sm-grouper" dest="sm-grouper" />
+    <copyfile src="tools/build-scripts/sm-tilapia" dest="sm-tilapia" />
   </project>
 
   <project path="android" name="android" remote="sm" revision="sm-jb-mr1" />
