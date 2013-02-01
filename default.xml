@@ -20,6 +20,8 @@
     <copyfile src="tools/build-scripts/grouper-kernel" dest="grouper-kernel" />
     <copyfile src="tools/build-scripts/sm-grouper" dest="sm-grouper" />
     <copyfile src="tools/build-scripts/sm-tilapia" dest="sm-tilapia" />
+    <copyfile src="tools/build-scripts/mako-kernel" dest="mako-kernel" />
+    <copyfile src="tools/build-scripts/sm-mako" dest="sm-mako" />
   </project>
 
   <project path="android" name="android" remote="sm" revision="sm-jb-mr1" />
@@ -43,8 +45,9 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device" />
+  <project path="device/lge/mako" name="device/lge/mako" remote="sm" revision="sm-jb-mr1" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />
+  <project path="kernel/lge/mako" name="lge-kernel-mako" remote="sm" revision="sm-jb-mr1" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />
