@@ -47,7 +47,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="sm" revision="sm-jb-mr1" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" revision="android-4.2.1_r1.2" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="kernel/lge/mako" name="lge-kernel-mako" remote="sm" revision="sm-jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
    <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -244,24 +244,24 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="sm" revision="sm-jb-mr1" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="android-4.2.1_r1.2" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="sm" revision="sm-jb-mr1" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" groups="pdk" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" groups="pdk" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="pdk" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="pdk" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="pdk" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="pdk" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="pdk" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="pdk" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="pdk" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="pdk" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="pdk" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="pdk" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="pdk" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="pdk" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" groups="pdk" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="pdk" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="sm" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="sm" revision="sm-jb-mr1" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="sm" revision="sm-jb-mr1" />
@@ -340,8 +340,8 @@
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
-  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
-  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
+  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="eclipse" />
+  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="eclipse" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" revision="master" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="pdk,darwin,arm" />
@@ -376,7 +376,7 @@
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="android_system_security" remote="sm" revision="sm-jb-mr1" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="mr1.1-staging" />
-  <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
+  <project path="tools/build" name="platform/tools/build" groups="tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="vendor/goog" name="android_vendor_goog" remote="sm" revision="jb-mr1" />
   <project path="vendor/goomanager" name="android_vendor_goomanager" remote="sm" revision="jellybean" />
