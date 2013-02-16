@@ -9,6 +9,8 @@
            fetch="git://android.git.linaro.org/" />
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod" />
+  <remote  name="muppets"
+           fetch="https://github.com/TheMuppets" />
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
            sync-c="true"
@@ -384,7 +386,8 @@
   <project path="vendor/RM" name="android_vendor_RM" remote="sm" revision="master" />
   <project path="vendor/Wallpaperz" name="android_vendor_Wallpaperz" remote="sm" revision="jellybean-hdpi" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="mr1.1-staging" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="mr1.1-staging"  />
-  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="mr1.1-staging"  />
-  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="mr1.1-staging"  />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="mr1.1-staging" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="mr1.1-staging" />
+  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="mr1.1-staging" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="muppets" revision="cm-10.1" />
 </manifest>
