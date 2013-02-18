@@ -16,7 +16,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="sm" revision="sm-jb-mr1" >
+  <project path="build" name="android_build" remote="sm" revision="sm-jb-mr1-gcc48" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/build-scripts/sm-all" dest="sm-all" />
     <copyfile src="tools/build-scripts/grouper-kernel" dest="grouper-kernel" />
@@ -26,7 +26,7 @@
     <copyfile src="tools/build-scripts/sm-mako" dest="sm-mako" />
   </project>
 
-  <project path="android" name="android" remote="sm" revision="sm-jb-mr1" />
+  <project path="android" name="android" remote="sm" revision="sm-jb-mr1-gcc48" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="sm" revision="sm-jb-mr1" />
@@ -36,7 +36,7 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="android_dalvik" remote="sm" revision="sm-jb-mr1" />
   <project path="development" name="android_development" remote="sm" revision="sm-jb-mr1" />
-  <project path="device/asus/grouper" name="android_device_asus_grouper" remote="sm" revision="sm-jb-mr1" />
+  <project path="device/asus/grouper" name="android_device_asus_grouper" remote="sm" revision="sm-jb-mr1-gcc48" />
   <project path="device/asus/tilapia" name="android_device_asus_tilapia" remote="sm" revision="sm-jb-mr1" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -48,7 +48,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/lge/mako" name="android_device_lge_mako" remote="sm" revision="sm-jb-mr1" />
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="sm" revision="sm-jb-mr1-gcc48" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="kernel/lge/mako" name="lge-kernel-mako" remote="sm" revision="sm-jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -354,7 +354,7 @@
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" revision="master" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="master" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/android-linaro-toolchain-4.8" name="android-linaro-toolchain-4.8" remote="sm" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" remote="sm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" revision="master" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
