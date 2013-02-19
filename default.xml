@@ -20,9 +20,11 @@
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/build-scripts/sm-all" dest="sm-all" />
     <copyfile src="tools/build-scripts/grouper-kernel" dest="grouper-kernel" />
+    <copyfile src="tools/build-scripts/grouper-kernel-clean" dest="grouper-kernel-clean" />
     <copyfile src="tools/build-scripts/sm-grouper" dest="sm-grouper" />
     <copyfile src="tools/build-scripts/sm-tilapia" dest="sm-tilapia" />
     <copyfile src="tools/build-scripts/mako-kernel" dest="mako-kernel" />
+    <copyfile src="tools/build-scripts/mako-kernel-clean" dest="mako-kernel-clean" />
     <copyfile src="tools/build-scripts/sm-mako" dest="sm-mako" />
   </project>
 
