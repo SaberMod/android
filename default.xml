@@ -265,7 +265,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="pdk" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" groups="pdk" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="pdk" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="sm" revision="sm-jb-mr1" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="sm" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="sm" revision="sm-jb-mr1" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="sm" revision="sm-jb-mr1" />
