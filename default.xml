@@ -51,7 +51,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="sm" revision="sm-jb-mr1" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" revision="android-4.2.1_r1.2" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />
   <project path="kernel/lge/mako" name="lge-kernel-mako" remote="sm" revision="sm-jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
    <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -248,23 +248,23 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="sm" revision="sm-jb-mr1" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" groups="pdk" revision="android-4.2.1_r1.2" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="pdk" revision="android-4.2.1_r1.2" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" groups="pdk" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" groups="pdk" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="pdk" />
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="pdk" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="pdk" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="pdk" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="pdk" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="pdk" />
+  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="pdk" />
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="pdk" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="pdk" />
+  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="pdk" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="pdk" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="pdk" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" groups="pdk" />
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="pdk" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="sm" revision="sm-jb-mr1" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="sm" revision="sm-jb-mr1" />
