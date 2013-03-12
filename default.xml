@@ -11,6 +11,8 @@
            fetch="https://github.com/CyanogenMod" />
   <remote  name="muppets"
            fetch="https://github.com/TheMuppets" />
+  <remote  name="aokp"
+           fetch="https://github.com/AOKP" />
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
            sync-c="true"
@@ -390,7 +392,7 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
-  <project path="vendor/lge" name="proprietary_vendor_lge" remote="sm" revision="cm-10.1" />
+  <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="sm" revision="cm-10.1" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="sm" revision="cm-10.1" />
   <project path="vendor/elan" name="proprietary_vendor_elan" remote="sm" revision="cm-10.1" />
