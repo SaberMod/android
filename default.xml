@@ -231,7 +231,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="sm" revision="sm-jb-mr1" />
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="sm" revision="sm-jb-mr1" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" groups="pdk" />
-  <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" groups="pdk" />
+  <project path="frameworks/compile/llvm-ndk-cc" name="android_frameworks_compile_llvm-ndk-cc" remote="sm" revision="sm-jb-mr1" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="sm" revision="sm-jb-mr1" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="sm" revision="sm-jb-mr1" />
   <project path="frameworks/ex" name="android_frameworks_ex" remote="sm" revision="sm-jb-mr1" />
