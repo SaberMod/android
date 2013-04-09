@@ -138,7 +138,6 @@
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="cm-10.1" />
   <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="nxp_nfc" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" />
@@ -194,7 +193,6 @@
   <project path="external/quake" name="android_external_quake" remote="sm" revision="sm-jb-mr1" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
-  <project path="external/rsync" name="android_external_rsync" remote="cm" revision="cm-10.1" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
   <project path="external/skia" name="android_external_skia" remote="sm" revision="sm-jb-mr1" />
