@@ -159,7 +159,6 @@
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="android_external_llvm" remote="sm" revision="sm-jb-mr1" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
-  <project path="external/lsof" name="android_external_lsof" remote="sm" revision="sm-jb-mr1" />
   <project path="external/lzo" name="android_external_lzo" remote="cm" revision="cm-10.1" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
