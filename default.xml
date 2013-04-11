@@ -401,4 +401,5 @@
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="sm" revision="cm-10.1" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="sm" revision="cm-10.1" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="sm" revision="cm-10.1" />
+  <project path="vendor/unknown" name="proprietary_vendor_unknown" remote="sm" revision="master" />
 </manifest>
