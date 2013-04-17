@@ -54,7 +54,7 @@
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="sm" revision="sm-jb-mr1" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
-  <project path="kernel/lge/mako" name="lge-kernel-mako" remote="sm" revision="sm-jb-mr1-wip" />
+  <project path="kernel/lge/mako" name="lge-kernel-mako" remote="sm" revision="sm-jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
    <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
