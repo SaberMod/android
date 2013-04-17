@@ -160,7 +160,6 @@
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="android_external_llvm" remote="sm" revision="sm-jb-mr1" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
-  <project path="external/lsof" name="android_external_lsof" remote="sm" revision="sm-jb-mr1" />
   <project path="external/lzo" name="android_external_lzo" remote="cm" revision="cm-10.1" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
@@ -194,7 +193,6 @@
   <project path="external/quake" name="android_external_quake" remote="sm" revision="sm-jb-mr1" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
-  <project path="external/rsync" name="android_external_rsync" remote="cm" revision="cm-10.1" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
   <project path="external/skia" name="android_external_skia" remote="sm" revision="sm-jb-mr1" />
@@ -287,10 +285,10 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="sm" revision="sm-jb-mr1" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="sm" revision="sm-jb-mr1" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cm" reivsion="cm-10.1" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="sm" revision="sm-jb-mr1" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="sm" revision="sm-jb-mr1" />
@@ -298,12 +296,13 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="sm" revision="sm-jb-mr1" />
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="sm" revision="sm-jb-mr1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
@@ -318,7 +317,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="cm" revision="cm-10.1" />
   <project path="packages/inputmethods/OpenWnn" name="android_packages_inputmethods_OpenWnn" remote="sm" revision="sm-jb-mr1" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -341,6 +340,7 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
+  <project path="packages/wallpapers/WallpaperZ" name="android_packages_wallpapers_WallpaperZ" remote="sm" revision="sm-jb-mr1" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
@@ -389,7 +389,6 @@
   <project path="vendor/goomanager" name="android_vendor_goomanager" remote="sm" revision="jellybean" />
   <project path="vendor/jackpal" name="android_vendor_jackpal" remote="sm" revision="master" />
   <project path="vendor/RM" name="android_vendor_RM" remote="sm" revision="master" />
-  <project path="vendor/Wallpaperz" name="android_vendor_Wallpaperz" remote="sm" revision="jellybean-hdpi" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
@@ -402,4 +401,6 @@
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="sm" revision="cm-10.1" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="sm" revision="cm-10.1" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="sm" revision="cm-10.1" />
+  <project path="vendor/unknown" name="proprietary_vendor_unknown" remote="sm" revision="master" />
+  <project path="vendor/sm" name="android_vendor_sm" remote="sm" revision="sm-jb-mr1" />
 </manifest>
