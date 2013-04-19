@@ -297,7 +297,7 @@
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="sm" revision="sm-jb-mr1" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="refs/tags/android-4.2.2_r1.1" />
