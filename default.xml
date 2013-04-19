@@ -13,7 +13,7 @@
            fetch="https://github.com/koush" />
   <remote  name="aokp"
            fetch="https://github.com/AOKP" />
-  <default revision="refs/tags/android-4.2.2_r1"
+  <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
