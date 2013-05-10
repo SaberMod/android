@@ -55,8 +55,10 @@
   <project path="device/lge/mako" name="android_device_lge_mako" remote="sm" revision="sm-jb-mr1" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="kernel/lge/mako" name="lge-kernel-mako" remote="sm" revision="sm-jb-mr1" />
+  <project path="device/samsung/d2spr" name="device_samsung_d2spr" remote="sm" revision="sm-jb-mr1" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="sm" revision="sm-jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
-   <project path="external/aac" name="platform/external/aac" groups="pdk" />
+  <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="android_external_android-mock" remote="sm" revision="sm-jb-mr1" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
@@ -403,4 +405,5 @@
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="sm" revision="cm-10.1" />
   <project path="vendor/unknown" name="proprietary_vendor_unknown" remote="sm" revision="master" />
   <project path="vendor/sm" name="android_vendor_sm" remote="sm" revision="sm-jb-mr1" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="sm" revision="cm-10.1" />
 </manifest>
