@@ -383,7 +383,7 @@
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="android_system_security" remote="sm" revision="sm-jb-mr1" />
-  <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-10.1" />
+  <project path="system/vold" name="platform/system/vold" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="vendor/goog" name="android_vendor_goog" remote="sm" revision="jb-mr1" />
