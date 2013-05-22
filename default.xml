@@ -13,6 +13,8 @@
            fetch="https://github.com/koush" />
   <remote  name="aokp"
            fetch="https://github.com/AOKP" />
+  <remote  name="muppets"
+           fetch="https://github.com/TheMuppets" />
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
            sync-c="true"
@@ -404,5 +406,6 @@
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="sm" revision="cm-10.1" />
   <project path="vendor/unknown" name="proprietary_vendor_unknown" remote="sm" revision="master" />
   <project path="vendor/sm" name="android_vendor_sm" remote="sm" revision="sm-jb-mr1" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="muppets" revision="cm-10.1" />
+  <project path="vendor/audience" name="proprietary_vendor_audience" remote="muppets" revision="cm-10.1" />
 </manifest>
