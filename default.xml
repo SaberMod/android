@@ -30,6 +30,9 @@
     <copyfile src="tools/build-scripts/mako-kernel" dest="mako-kernel" />
     <copyfile src="tools/build-scripts/mako-kernel-clean" dest="mako-kernel-clean" />
     <copyfile src="tools/build-scripts/sm-mako" dest="sm-mako" />
+    <copyfile src="tools/build-scripts/sm-manta" dest="sm-manta" />
+    <copyfile src="tools/build-scripts/manta-kernel" dest="manta-kernel" />
+    <copyfile src="tools/build-scripts/manta-kernel-clean" dest="manta-kernel-clean" />
   </project>
 
   <project path="android" name="android" remote="sm" revision="sm-jb-mr1" />
