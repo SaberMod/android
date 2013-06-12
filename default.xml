@@ -62,7 +62,7 @@
   <project path="device/samsung/manta" name="android_device_samsung_manta" remote="sm" revision="sm-jb-mr1" />
   <project path="kernel/asus/grouper" name="Kernel-Grouper" remote="sm" revision="sm-jb-mr1-wip" />
   <project path="kernel/lge/mako" name="lge-kernel-mako" remote="sm" revision="sm-jb-mr1" />
-  <project path="kernel/samsung/manta" name="samsung_kernel_manta" remote="sm" revision="sm-jb-mr1-wip" />
+  <project path="kernel/samsung/manta" name="samsung_kernel_manta" remote="sm" revision="sm-jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="android_external_aac" groups="pdk" remote="sm" revision="sm-jb-mr1" />
   <project path="external/android-clat" name="platform/external/android-clat" />
