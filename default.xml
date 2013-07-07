@@ -413,4 +413,5 @@
   <project path="vendor/sm" name="android_vendor_sm" remote="sm" revision="sm-jb-mr1" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="muppets" revision="cm-10.1" />
   <project path="vendor/audience" name="proprietary_vendor_audience" remote="muppets" revision="cm-10.1" />
+  <project path="vendor/ThyrusHoloBlack" name="android_vendor_ThyrusHoloBlack" remote="sm" revision="master" />
 </manifest>
