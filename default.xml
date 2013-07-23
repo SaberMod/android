@@ -85,7 +85,7 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
-  <project path="external/checkpolicy" name="platform/external/checkpolicy" />
+  <project path="external/checkpolicy" name="android_external_checkpolicy" remote="sm" revision="sm-jb-mr1" />
   <project path="external/chromium" name="android_external_chromium" remote="sm" revision="sm-jb-mr1" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
@@ -158,7 +158,7 @@
   <project path="external/libpng" name="android_external_libpng" remote="sm" revision="sm-jb-mr1" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="android_external_libselinux" remote="sm" revision="sm-jb-mr1" />
-  <project path="external/libsepol" name="platform/external/libsepol" />
+  <project path="external/libsepol" name="android_external_libsepol" remote="sm" revision="sm-jb-mr1" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
