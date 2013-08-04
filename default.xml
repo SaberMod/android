@@ -64,7 +64,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="sm" revision="sm-jb-mr2" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" revision="refs/tags/android-4.3_r2.1_" />
   <project path="device/samsung/manta" name="android_device_samsung_manta" remote="sm" revision="sm-jb-mr2" />
   <project path="kernel/asus/grouper" name="Kernel-Grouper" remote="sm" revision="sm-jb-mr2" />
   <project path="kernel/lge/mako" name="lge-kernel-mako" remote="sm" revision="sm-jb-mr2" />
@@ -276,7 +276,6 @@
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
@@ -413,7 +412,6 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.2" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.2" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.2" />
-  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.2" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr2" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="sm" revision="sm-jb-mr2" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="sm" revision="sm-jb-mr2" />
